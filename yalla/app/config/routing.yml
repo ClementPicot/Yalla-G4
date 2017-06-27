@@ -1,7 +1,0 @@
-lmc_admin:
-    resource: "@LMCAdminBundle/Resources/config/routing.yml"
-    prefix:   /
-
-lmc_main:
-    resource: "@LMCMainBundle/Resources/config/routing.yml"
-    prefix:   /
