@@ -8,14 +8,11 @@
     <!--LINK fichier boostrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- LINK Custom CSS -->
-    <link rel="stylesheet" href="style/css/screen.css">
+    <link rel="stylesheet" href="{{asset('css/screen.css')}}">
     <!-- LINK Font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-
   </head>
-
   <body>
-
     <body>
       <!--DEBUT HEADER-->
       <header>
@@ -52,13 +49,11 @@
         <section class="article">
           <div class="container-fluid">
             <div class="content_article col-md-16">
-              <h1>Titre de l'article</h1>
+              <h1>{{$article->title}}</h1>
               <hr>
               <div class="thumb_article col-md-8">
                 <img src="img-content/projet.jpg" width="100%" alt="projet">
               </div>
-
-
               <div class="info_article col-md-12">
                 <div class="date_categorie col-md-12">
                   <div class="date_content col-md-4">
@@ -71,26 +66,17 @@
                   </div>
                 </div>
                 <hr>
-
                 <div class="text_article col-md-7">
-                  <p>Veniam aut et quorum possumus aut cillum de ullamco si culpa. Incurreret tempor minim quamquam multos est illum nescius e malis illum. Quid arbitror ita appellat, dolor de aliquip non tamen. Est ita quorum legam cillum de ita velit duis
-                    multos occaecat. Admodum eu quid cupidatat, consequat se elit commodo. Se iudicem et appellat est sed esse veniam fore ullamco. Noster arbitrantur probant veniam excepteur, aliquip sunt aliqua in tamen. Iis e elit ipsum dolor do quo
-                    quem possumus. Consequat enim litteris constias, do o multos ingeniis. An quem et cillum id senserit veniam expetendis. Offendit hic eiusmod ab consequat culpa a aliquip adipisicing. Fugiat sempiternum deserunt anim aliquip, singulis
-                    quis est pariatur relinqueret. Se o graviterque, sint in laborum ut nulla. Legam singulis se offendit, ex eram constias. Do in instituendarum, quo in cillum esse culpa.</p>
-
+                  <p>{{$article->contenu}}</p>
                 </div>
-
                 <div class="download_content">
                   <h3>Télecharger l'article</h2>
-
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-
         </main>
-
   </body>
 </html>

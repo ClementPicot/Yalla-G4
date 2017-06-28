@@ -13,6 +13,7 @@
 
 Route::get('/', ['as' => 'home', 'uses' => 'FrontofficeController@index']);
 Route::get('/notre-mission', ['as' => 'mission', 'uses' => 'FrontofficeController@mission']);
+Route::get('/article/{id}', ['as' => 'article', 'uses' => 'FrontofficeController@viewArticle']);
 
 Route::prefix('admin')->group(function() {
   Route::get('/article', ['as' => "admin.article","uses" => 'ArticleController@index']);
