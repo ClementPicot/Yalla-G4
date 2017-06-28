@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
 <body>
+    <h1 class="text-center">Modifier l'article {{$article->title}}</h1>
     <div role="main" class="container">
         <form class="" action="{{route('admin.article_update', $article->id)}}" method="post">
           <input type="hidden" name="_method" value="PUT">
@@ -21,11 +23,13 @@
           <label for="title">media</label>
           <input type="text" name="media" value="{{$article->media}}" class="form-control">
           <label for="title">catégorie</label>
-          <input type="text" name="categorie" value="{{$article->catégorie}}" class="form-control">
+          <input type="text" name="categorie" value="{{$article->categorie}}" class="form-control">
           <label for="title">Texte de l'article</label>
           <textarea name="contenu" rows="8" cols="80" class="form-control">{{$article->contenu}}</textarea>
-          <input type="submit" name="" value="Modifier" class="btn btn-success">
+          <input type="submit" name="" value="Update" class="btn btn-success">
         </form>
     </div>
+    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script>tinymce.init({ selector:'textarea' });</script>
 </body>
 </html

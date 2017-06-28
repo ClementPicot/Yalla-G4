@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'FrontController@index');
 
 Route::prefix('admin')->group(function() {
   Route::get('/article', ['as' => "admin.article","uses" => 'ArticleController@index']);
@@ -20,4 +20,5 @@ Route::prefix('admin')->group(function() {
   Route::put('/article/edit/{id}', ['as' => "admin.article_update","uses" => 'ArticleController@updateArticle']);
   Route::get('/article/add', ['as' => "admin.article_add","uses" => 'ArticleController@addArticle']);
   Route::post('/article/add', ['as' => "admin.article_create","uses" => 'ArticleController@createArticle']);
+  Route::get('/article/delete/{id}', ['as' => "admin.article_delete","uses" => 'ArticleController@deleteArticle']);
 });
