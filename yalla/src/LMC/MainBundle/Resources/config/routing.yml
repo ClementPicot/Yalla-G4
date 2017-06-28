@@ -1,0 +1,7 @@
+lmc_main_homepage:
+    path:     /
+    defaults: { _controller: LMCMainBundle:Default:index }
+
+lmc_main_home:
+    path: /home
+    defaults: { _controller: LMCMainBundle:Home:index }
