@@ -211,6 +211,43 @@ main#home {
 
 }
 /*----Fin aider----*/
+/*-----Début Actualité----*/
+.content_actualite {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.img_actualite {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.img_actualite img {
+  width: 100%;
+}
+.first_actualite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.date_categorie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+.date_categorie img {
+  width: 10%;
+}
+
+
+
 /*------Debut reseau------*/
 .background_reseau {
   background: url('../../img-content/reseau.png');
