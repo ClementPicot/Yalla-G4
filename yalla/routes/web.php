@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'FrontController@index');
+Route::get('/', ['as' => 'home', 'uses' => 'FrontofficeController@index']);
+Route::get('/notre-mission', ['as' => 'mission', 'uses' => 'FrontofficeController@mission']);
 
 Route::prefix('admin')->group(function() {
   Route::get('/article', ['as' => "admin.article","uses" => 'ArticleController@index']);
@@ -21,4 +22,6 @@ Route::prefix('admin')->group(function() {
   Route::get('/article/add', ['as' => "admin.article_add","uses" => 'ArticleController@addArticle']);
   Route::post('/article/add', ['as' => "admin.article_create","uses" => 'ArticleController@createArticle']);
   Route::get('/article/delete/{id}', ['as' => "admin.article_delete","uses" => 'ArticleController@deleteArticle']);
+  Route::get('/article/change/{id}', ['as' => "admin.change_visible","uses" => 'ArticleController@switchVisible']);
+
 });

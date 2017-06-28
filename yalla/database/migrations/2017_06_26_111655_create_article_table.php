@@ -18,6 +18,7 @@ class CreateArticleTable extends Migration
             $table->string('title', 255);
             $table->string('slug', 255);
             $table->string('date', 255);
+            $table->tinyInteger('visible')->default(0);
             $table->string('media', 255)->nullable();
             $table->string('categorie', 255);
             $table->longText('contenu', 2000);

@@ -26,12 +26,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <img class="logo" src="img-content/logo.svg" width="50" height="50" alt="Yalla">
+              <img class="logo" src="{{asset('img-content/logo.svg')}}" width="50" height="50" alt="Yalla">
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#about">Nous connaître</a></li>
-                <li><a href="mission.html">Notre mission</a></li>
+                <li><a href="{{route('mission')}}">Notre mission</a></li>
                 <li><a href="#skills">Nos partenaires</a></li>
                 <li><a href="#experience">Nos projets</a></li>
                 <li><a href="#contact">Contact</a></li>

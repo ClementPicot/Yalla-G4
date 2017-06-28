@@ -20,6 +20,7 @@
                 <th>Media</th>
                 <th>Catégorie</th>
                 <th>Contenu</th>
+                <th>Visible(1)/Non visible (0)</th>
             </tr>
          @foreach ($articles as $article)
             <tr>
@@ -30,10 +31,13 @@
                 <td>{{$article->media}}</td>
                 <td>{{$article->categorie}}</td>
                 <td>{{$article->contenu}}</td>
+                <td>{{$article->visible}}</td>
+
                 <td>
                 <a href="{{route('admin.article_edit', $article->id)}}"><button type="button" value="Edit" class="btn btn-warning btn-sm">
                   Edit</button></a>
                 <a onClick=\"return confirm('Are you sure you want to delete?')\" href="{{route('admin.article_delete', $article->id)}}"><input type="button" value="Delete" class="btn btn-danger btn-sm"></a>
+                <a href="{{route('admin.change_visible', $article->id)}}" ><button type="button" name="button" class="btn btn-success" value="" >visible/non visible</button></a>
                 </td>
             </tr>
         @endforeach
