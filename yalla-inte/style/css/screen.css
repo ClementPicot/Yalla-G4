@@ -128,7 +128,7 @@ main#home {
     font-size: 25px; }
   main#home .don_theatre {
     height: 60px;
-    background-color: #0B9D2D;
+    background-color: #F24800;
     border-radius: 7px;
     opacity: 0.87;
     margin: auto;
@@ -138,7 +138,7 @@ main#home {
     border: none;
     transition: 0.7s; }
   main#home .don_theatre:hover {
-    background-color: #e36ffb;
+    background-color: #F24800;
     cursor: pointer; }
   main#home .content_theatre h1 {
     text-transform: uppercase; }
@@ -163,7 +163,7 @@ main#home {
     font-size: 25px; }
   main#home .don_who {
     height: 60px;
-    background-color: #0B9D2D;
+    background-color: #F24800;
     border-radius: 7px;
     opacity: 0.87;
     margin: auto;
@@ -174,7 +174,7 @@ main#home {
     transition: 0.7s;
     font-size: 24px; }
   main#home .don_who:hover {
-    background-color: #e36ffb;
+    background-color: #F24800;
     cursor: pointer; }
   main#home .content_who h1 {
     text-transform: uppercase; }
@@ -222,13 +222,11 @@ main#home {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    text-align: center;
     font-size: 24px; }
   main#home .background_aider {
-    background-color: #128E2D; }
+    background-color: #F24800; }
   main#home .content_aider {
     height: 350px;
     display: flex;
@@ -254,7 +252,8 @@ main#home {
     font-size: 22px;
     transition: 0.7s; }
   main#home .education_don button:hover {
-    background-color: #e36ffb;
+    background-color: #fff;
+    color: #F24800;
     cursor: pointer; }
   main#home .education_don p {
     font-size: 21px; }
@@ -262,26 +261,39 @@ main#home {
     display: flex;
     justify-content: center;
     height: auto;
-    flex-direction: column;
     text-align: center;
+    flex-direction: column;
     align-items: center; }
+  main#home .content_actualite hr {
+    border-bottom: 2px solid #000; }
   main#home .img_actualite {
     width: 50%;
     display: flex;
     justify-content: center;
     text-align: center; }
-  main#home .img_actualite img {
-    width: 100%; }
+  main#home .img_actualite {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s; }
+  main#home .img_actualite:hover {
+    transform: scale(1.05); }
   main#home .first_actualite {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; }
+  main#home .first_actualite a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   main#home .date_categorie {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px; }
+  main#home .first_actualite h4 {
+    margin-top: 50px;
+    color: #000; }
   main#home .date_categorie img {
     width: 10%; }
   main#home .background_reseau {
@@ -337,7 +349,13 @@ main#home {
   @media screen and (max-width: 650px) {
     main#home .education_don button {
       width: 150px;
-      font-size: 18px; } }
+      font-size: 18px; }
+    main#home .content_theatre p {
+      font-size: 17px; }
+    main#home .content_who p {
+      font-size: 17px; }
+    main#home .thumb_partenaire img {
+      width: 33%; } }
 
 main#missions {
   /*---start banner-----*/
@@ -356,14 +374,14 @@ main#missions {
   main#missions .background_mission {
     background: url("../../img-content/mission.jpg") center no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 300px;
     color: #fff; }
   main#missions .content_mission {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px; }
+    height: 300px; }
   main#missions .ancre_mission {
     display: flex;
     align-items: center;
@@ -427,7 +445,6 @@ main#missions {
     main#missions .ancre_mission h2 {
       font-size: 14px; } }
 
-
 main#article .container-fluid {
   padding: 0; }
 main#article hr {
@@ -475,94 +492,5 @@ main#article .text_article {
   justify-content: center;
   align-items: center;
   font-size: 20px; }
-=======
-main#projet {
-  /*---start banner-----*/
-  /*----Fin Banner-----*/
-  /*----Debut Strategie-----*/
-  /*------strategie et action ------*/
-  /*----Fin Strategie -----*/
-  /*-----Debut action -----*/
-  /*--------Debut objectif -----*/
-  /*------Fin objectif -----*/
-  /*-------Responsive----------*/ }
-  main#projet .container-fluid {
-    padding: 0; }
-  main#projet hr {
-    border-bottom: 2px solid black; }
-  main#projet .background_projet {
-    background: url("../../img-content/projet.jpg") center no-repeat;
-    background-size: cover;
-    height: 600px;
-    color: #fff; }
-  main#projet .content_projet {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 600px; }
-  main#projet .ancre_projet {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 100px;
-    background-color: rgba(80, 80, 80, 0.63);
-    padding: 15px;
-    padding-bottom: 20px;
-    display: none; }
-  main#projet .ancre_projeth2 {
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.5s; }
-  main#projet .ancre_projeth2:hover {
-    color: #71bbb1; }
-  main#projet .strategie_action {
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-around; }
-  main#projet .content_strategie {
-    text-align: center;
-    box-shadow: 0 0 7px 0 rgba(186, 186, 186, 0.5);
-    padding: 25px; }
-  main#projet .content_action {
-    text-align: center;
-    box-shadow: 0 0 7px 0 rgba(186, 186, 186, 0.5);
-    padding: 25px; }
-  main#projet .content_objectif {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column; }
-  main#projet .content_objectif h3 {
-    text-align: center; }
-  main#projet .post_education-paix {
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; }
-  main#projet .background_shadow {
-    margin-top: 80px;
-    box-shadow: inset 0 1px 10px 0 rgba(196, 196, 196, 0.5); }
-  main#projet .content_education span {
-    border-bottom: 2px solid green; }
-  main#projet .content_paix span {
-    border-bottom: 2px solid green; }
-  @media screen and (max-width: 1000px) {
-    main#projet .post_objectif {
-      text-align: center; } }
-  @media screen and (max-width: 800px) {
-    main#projet .strategie_action {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap; }
-    main#projet .ancre_projet {
-      display: flex; }
-    main#projet .content_paix {
-      margin-top: 50px; }
-    main#projet .ancre_projeth2 {
-      font-size: 14px; } }
-
 
 /*# sourceMappingURL=screen.css.map */
