@@ -1,3 +1,0 @@
-lmc_admin_homepage:
-    path:     /
-    defaults: { _controller: LMCAdminBundle:Default:index }

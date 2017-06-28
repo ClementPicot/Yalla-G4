@@ -33,4 +33,9 @@ class ArticleController extends Controller {
     Article::create($request->all());
     return redirect(action('ArticleController@index'));
   }
+  public function deleteArticle($id)
+  {
+    $article = Article::find($id)->delete();
+    return redirect(action('ArticleController@index'));
+  }
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+  <h1 class="text-center">Liste des articles</h1>
     <div role="main" class="container">
         <p><a href="{{route('admin.article_add')}}"><input type="button" value="Add" class="btn btn-success btn-sm"></a></p>
         <table class="table table-bordered">
@@ -32,7 +33,7 @@
                 <td>
                 <a href="{{route('admin.article_edit', $article->id)}}"><button type="button" value="Edit" class="btn btn-warning btn-sm">
                   Edit</button></a>
-                <a href=""><input href="{{}}" type="button" value="Delete" class="btn btn-danger btn-sm"></a>
+                <a onClick=\"return confirm('Are you sure you want to delete?')\" href="{{route('admin.article_delete', $article->id)}}"><input type="button" value="Delete" class="btn btn-danger btn-sm"></a>
                 </td>
             </tr>
         @endforeach
