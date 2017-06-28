@@ -38,4 +38,18 @@ class ArticleController extends Controller {
     $article = Article::find($id)->delete();
     return redirect(action('ArticleController@index'));
   }
+
+  public function switchVisible($id)
+  {
+    $article = Article::find($id);
+    if ($article->visible == 0) {
+      $article->visible = 1;
+      $article->save();
+    } elseif ($article->visible == 1) {
+      $article->visible = 0;
+      $article->save();
+    }
+    return redirect(action('ArticleController@index'));
+  }
+
 }
