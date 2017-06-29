@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/ClementPicot/Yalla-G4/blob/master/YalaG4_Site/public/img-content/logo.svg"></p>
+<p align="center"><img src="https://giphy.com/gifs/3ohryi1LymUOnPVN0Q"></p>
 
 
 # Projet de refonte du site [Yalla! Pour les Enfants](http://www.yalla-enfants.com/) par le groupe Yalla-G4.
