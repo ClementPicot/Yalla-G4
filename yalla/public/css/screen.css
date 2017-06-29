@@ -24,37 +24,45 @@ header {
   /*# sourceMappingURL=screen.css.map */ }
   header nav.navbar {
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.7); }
+    background-color: #f2f2f2;
+    padding: .5%;
+    width: 100%;
+    display: block; }
+  header ul.navbar-right {
+    width: 65%; }
   header .logo {
     float: left;
     margin-left: 10px; }
-  header .don {
-    transform: translateX(-50%);
-    left: 20%;
-    top: 0;
-    position: absolute; }
   header .navbar-header {
     width: auto; }
   header button.navbar-toggle {
     border: none; }
+  header .don {
+    float: right;
+    margin-right: 4%; }
   header .don h4 {
-    width: 100%;
     text-align: center;
-    border: 1px solid #000;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #0B9D2D;
-    border-radius: 5px;
-    color: #fff;
+    padding: 10px 20px;
+    background-color: #F24800;
+    border-radius: 10px;
     box-shadow: 2px 3px 4px 0 rgba(0, 0, 0, 0.25);
-    transition: 0.7s;
-    opacity: 1; }
+    transition: 0.7s; }
+  header .don h4 a {
+    color: white; }
   header .don h4:hover {
     color: #fff !important;
-    background-color: #000;
+    background-color: #DB4500;
     cursor: pointer; }
+  header .nav {
+    float: right;
+    margin-right: 1%; }
+  header #navbar ul.navbar-nav li.active_header a {
+    color: #F24800; }
+  header #navbar ul.navbar-nav li.active_header {
+    background-color: transparent; }
+  header select {
+    float: right;
+    margin-top: 2%; }
   @media screen and (max-width: 770px) {
     header .custom-navbar .navbar-right {
       float: left;

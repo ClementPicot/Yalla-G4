@@ -10,19 +10,18 @@
   <!-- LINK Custom CSS -->
   <link rel="stylesheet" href="{{asset('css/screen.css')}}">
   <!-- LINK Font-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-
 </head>
 
 <body>
 
 <!--DEBUT HEADER-->
 <header>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
         <div class="don navbar-left">
-          <h4><a href="#">Faire un don</a></h4>
         </div>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -30,14 +29,21 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="{{route('home')}}"><img class="logo" src="{{asset('img-content/logo.svg')}}" width="50" height="50" alt="Yalla"></a>
+        <a href="{{route('home')}}"><img class="logo"  src="{{asset('img-content/logo.svgx  ')}}" width="50" height="50" alt="Yalla"></a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="nous-connaitre.html">Nous connaître</a></li>
+          <li class="active_header"><a href="actualites.html">Actualités</a></li>
+          <li><a href="#">Nous connaître</a></li>
           <li><a href="{{route('mission')}}">Notre mission</a></li>
           <li><a href="projet.html">Nos projets</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <select name="lang" id="lang">
+            <option value="fr">fr (France)</option>
+            <option value="en">en (England)</option>
+          </select>
+          <div class="don"><h4><a href="#">Faire un don</a></h4></div>
+
         </ul>
       </div>
     </div>
