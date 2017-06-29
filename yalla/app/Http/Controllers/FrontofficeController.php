@@ -5,7 +5,8 @@ use App\Article;
 use Illuminate\Http\Request;
 
 class FrontofficeController extends Controller {
-  public function index()
+
+    public function index()
   {
      return view('front.index', compact('articles'));
   }
@@ -20,4 +21,9 @@ class FrontofficeController extends Controller {
     $article = Article::find($id);
     return view('front.article', compact('article'));
   }
+
+    public function knowUs()
+    {
+        return view('front.connaitre');
+    }
 }

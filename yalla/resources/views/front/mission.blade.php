@@ -30,7 +30,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active_header"><a href="actualites.html">Actualités</a></li>
-                <li><a href="#">Nous connaître</a></li>
+                <li><a href="{{route('connaitre')}}">Nous connaître</a></li>
                 <li><a href="{{route('mission')}}">Notre mission</a></li>
                 <li><a href="projet.html">Nos projets</a></li>
                 <li><a href="contact.html">Contact</a></li>
