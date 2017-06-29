@@ -29,7 +29,7 @@ header {
     width: 100%;
     display: block; }
   header ul.navbar-right {
-    width: 65%; }
+    width: 90%; }
   header .logo {
     float: left;
     margin-left: 10px; }
@@ -453,6 +453,79 @@ main#missions {
     main#missions .ancre_mission h2 {
       font-size: 14px; } }
 
+main#actualite .container-fluid {
+  padding: 0; }
+main#actualite hr {
+  border-bottom: 2px solid black; }
+main#actualite .content_article {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: left; }
+main#actualite .article_date {
+  margin: 3% 0; }
+main#actualite .categorie_date {
+  height: 54px;
+  border: 2px solid #E6E6E6;
+  border-radius: 16px; }
+main#actualite .date {
+  margin-top: 12px; }
+main#actualite .taille_img img {
+  width: 24px;
+  display: block;
+  margin: 0 auto;
+  opacity: .3; }
+main#actualite .article_date p {
+  margin-top: 2px;
+  font-size: 13px;
+  color: #4E4E4E; }
+main#actualite .actu {
+  margin-top: 100px; }
+main#actualite .actu h2 {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center; }
+main#actualite .article_shadow {
+  border-radius: 19px;
+  box-shadow: 0 0 10px 0 rgba(174, 174, 174, 0.5);
+  transition: 0.5s;
+  cursor: pointer; }
+main#actualite .article_shadow:hover {
+  transform: scale(1.05); }
+main#actualite .article_shadow img {
+  width: 100%;
+  margin-top: 25px; }
+main#actualite .article_shadow h3 {
+  color: #F24800;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center; }
+main#actualite .taille_img2 img {
+  width: 18px;
+  display: block;
+  margin: 0 auto;
+  opacity: .3; }
+main#actualite .margin_article {
+  margin-bottom: 20px;
+  font-size: 10px; }
+main#actualite .container_article {
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+@media screen and (max-width: 800px) {
+  main#actualite .categorie_date img {
+    width: 18px; }
+  main#actualite .date p {
+    font-size: 9px; }
+  main#actualite .article_shadow {
+    margin: 5% 0; } }
+@media screen and (max-width: 430px) {
+  main#actualite .categorie_date {
+    height: 90px; } }
+
 main#article .container-fluid {
   padding: 0; }
 main#article hr {
@@ -787,5 +860,78 @@ main#projet {
     margin-top: 740px; }
   #contact .contact_text {
     margin-top: 400px; } }
+
+footer .bckg-color {
+  background-color: #F2F2F2; }
+footer .footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto; }
+footer .logo_content {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+footer .mention_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-left: 40px; }
+footer .mention_content button {
+  padding: 0 20px 0 20px;
+  height: 60px;
+  border-radius: 17px;
+  background-color: #F24800;
+  border: none;
+  color: #fff;
+  transition: 0.7s; }
+footer .mention_content button:hover {
+  color: #F24800;
+  background-color: #fff; }
+footer .actualite_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+footer .reseaux_content {
+  display: flex;
+  justify-content: space-around; }
+footer .last_actualite h6 {
+  font-size: 15px; }
+footer .all_actualite {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+footer .all_actualite a {
+  color: #000;
+  transition: 0.5s; }
+footer .all_actualite a:hover {
+  text-decoration: underline; }
+footer .all_actualite p {
+  border-right: 1px solid black;
+  padding: 20px; }
+@media screen and (max-width: 800px) {
+  footer .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  footer .mention_content {
+    display: flex;
+    flex-direction: column; }
+  footer .reseaux_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px; }
+  footer .all_actualite {
+    display: flex;
+    flex-direction: column; }
+  footer .all_actualite p {
+    border: none;
+    border-bottom: 1px solid black; } }
 
 /*# sourceMappingURL=screen.css.map */

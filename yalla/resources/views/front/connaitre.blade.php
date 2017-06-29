@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{asset('bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/screen.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 </head>
 
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{route('home')}}"><img class="logo"  src="img-content/logo.svg" width="50" height="50" alt="Yalla"></a>
+                <a href="{{route('home')}}"><img class="logo"  src="{{asset('img-content/logo.svg')}}" width="50" height="50" alt="Yalla"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -39,7 +39,8 @@
                         <option value="fr">fr (France)</option>
                         <option value="en">en (England)</option>
                     </select>
-                    <div class="don"><h4><a href="#">Faire un don</a></h4></div>
+                    <div class="don">
+                        <h4><a href="{{route('soutenir')}}">Faire un don</a></h4></div>
 
                 </ul>
             </div>
@@ -122,25 +123,25 @@
                     <hr>
                     <div class="post_vision-aide col-md-12 col-sm-12 col-xs-12">
                         <div class="content_equipe col-md-2 col-sm-3 col-xs-6">
-                            <img src="img-content/mary.jpg" alt="Mary LEMELAND-MELLIONEC">
+                            <img src="{{asset('img-content/mary.jpg')}}" alt="Mary LEMELAND-MELLIONEC">
                             <p>Mary LEMELAND-MELLIONEC</p>
                             <p>Présidente de l’association</p>
                         </div>
                         <div class="content_equipe col-md-2 col-sm-3 col-xs-6">
-                            <img src="img-content/sophie.jpg" alt="Sophie FANUCCHI">
+                            <img src="{{asset('img-content/sophie.jpg')}}" alt="Sophie FANUCCHI">
                             <p>Sophie FANUCCHI</p>
                             <p>Secrétaire et référente juridique</p>
                         </div>
                         <div class="content_equipe_logo col-md-2 col-sm-3 col-xs-6">
-                            <img src="img-layout/logo.svg" alt="Logo">
+                            <img src="{{asset('img-layout/logo.svg')}}" alt="Logo">
                         </div>
                         <div class="content_equipe col-md-2 col-sm-3 col-xs-6">
-                            <img src="img-content/mélina.jpg" alt="Mélina PELE">
+                            <img src="{{asset('img-content/mélina.jpg')}}" alt="Mélina PELE">
                             <p>Mélina PELE</p>
                             <p>Vice-présidente et référente communication </p>
                         </div>
                         <div class="content_equipe col-md-2 col-sm-3 col-xs-6">
-                            <img src="img-content/pierre.jpg" alt="Pierre LEMELAND">
+                            <img src="{{asset('img-content/pierre.jpg')}}" alt="Pierre LEMELAND">
                             <p>Pierre LEMELAND</p>
                             <p>Trésorier</p>
                         </div>
@@ -167,7 +168,7 @@
             </div>
 
             <div class="image_fonctionnement col-md-5 col-sm-12 col-xs-12">
-                <img src="img-content/fonctionnement.jpg" alt="fonctionnement (image enfants)">
+                <img src="{{asset('img-content/fonctionnement.jpg')}}" alt="fonctionnement (image enfants)">
             </div>
 
         </section>
@@ -176,6 +177,50 @@
 
 
 </main>
+
+<footer>
+    <div class="container-fluid bckg-color">
+        <div class="container">
+            <div class="row">
+                <div class="footer">
+                    <div class="logo_content col-md-3">
+                        <a href="{{route('home')}}"><img src="{{asset('img-layout/logo.svg')}}" width="50" height="50" alt=""></a>
+                    </div>
+                    <div class="mention_content col-md-8 col-xs-12">
+                        <p>Mentions légale</p>
+                        <p>Contact</p>
+                        <button type="button" name="button">Faire un don</button>
+                        <div class="reseaux_content col-md-4 col-xs-12">
+                            <a href="#"><img src="{{asset('img-content/facebook-footer.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('img-content/twitter.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('img-content/pinterest.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('img-content/instagram.png')}}" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="actualite_content">
+                        <div class="last_actualite">
+                            <h6>Dernières actualités</h6>
+                        </div>
+                        <div class="all_actualite">
+                            <a href="#">
+                                <p>Fest-noz solidaire le 29 octobre à Poullaouen</p>
+                            </a>
+                            <a href="#">
+                                <p>Assemblé Générale de Yalla ! Pour les enfants jeudi 29 septembre 2016 à, à Paris</p>
+                            </a>
+                            <a href="#">
+                                <p>Pétition "Ban ki-moon:STOPPONS LA GUERRE EN SYRIE"</p>
+                            </a>
+                            <a href="#">
+                                <p>Les prochains évènements de Souria Houria</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
 <script src="js/bootstrap.min.js" charset="utf-8"></script>

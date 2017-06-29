@@ -29,7 +29,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{route('home')}}"><img class="logo"  src="img-content/logo.svg" width="50" height="50" alt="Yalla"></a>
+                <a href="{{route('home')}}"><img class="logo"  src="{{asset('img-content/logo.svg')}}" width="50" height="50" alt="Yalla"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -149,7 +149,7 @@
               </div>
 
               <div class="date taille_img2 col-md-2 col-sm-2 col-xs-5">
-                <img src="{{asset('img-content/folder.png')}}"" alt="Date">
+                <img src="{{asset('img-content/folder.png')}}" alt="Date">
               </div>
 
               <div class="date col-md-4 col-sm-4 col-xs-5">
@@ -161,11 +161,11 @@
 
           <div class="article_shadow col-md-3 col-sm-5 col-xs-12">
             <div class="margin_article col-md-12 col-sm-12 col-xs-12">
-              <img src="img-content/img_article.jpg" alt="Article 1">
+              <img src="    {{asset('img-content/img_article.jpg')}}" alt="Article 1">
               <h3>Yalla ! Pour les Enfants au marché des céramistes de Quimper les 5 et 6 septembre</h3>
 
               <div class="date taille_img2 col-md-2 col-sm-2 col-xs-5">
-                <img src="img-content/clock.png" alt="Date">
+                <img src="{{asset('img-content/clock.png')}}" alt="Date">
               </div>
 
               <div class="date col-md-4 col-sm-4 col-xs-5">
@@ -173,7 +173,7 @@
               </div>
 
               <div class="date taille_img2 col-md-2 col-sm-2 col-xs-5">
-                <img src="img-content/folder.png" alt="Date">
+                <img src="{{asset('img-content/folder.png')}}" alt="Date">
               </div>
 
               <div class="date col-md-4 col-sm-4 col-xs-5">
