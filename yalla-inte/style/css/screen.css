@@ -523,7 +523,11 @@ main#article .margin_article {
   margin-bottom: 20px;
   font-size: 10px; }
 main#article .container_article {
-  margin: 3% auto; }
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
 @media screen and (max-width: 800px) {
   main#article .categorie_date img {
     width: 18px; }
@@ -728,5 +732,52 @@ main#projet {
     display: none; }
   #connaitre .image_fonctionnement {
     display: none; } }
+
+#contact .container-fluid {
+  padding: 0; }
+#contact .don {
+  margin-top: 100px;
+  text-align: center; }
+#contact .don h1 {
+  font-size: 25px;
+  line-height: 29px; }
+#contact .don_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px; }
+#contact .background_don {
+  box-shadow: 0 0 2px 0 rgba(202, 202, 202, 0.5); }
+#contact .background_don h2 {
+  margin-top: 30px;
+  color: #F24800;
+  font-size: 18px;
+  line-height: 21px; }
+#contact .background_don p {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 20px; }
+#contact .background_don a {
+  color: #F24800; }
+#contact .membre {
+  margin-top: 300px; }
+#contact .message_contact p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 18px; }
+@media screen and (max-width: 800px) {
+  #contact .background_don {
+    margin: 5% 0; }
+  #contact .background_don p {
+    font-size: 14px;
+    line-height: 17px; }
+  #contact .membre {
+    margin-top: 600px; } }
+@media screen and (max-width: 430px) {
+  #contact .membre {
+    margin-top: 740px; }
+  #contact .contact_text {
+    margin-top: 400px; } }
 
 /*# sourceMappingURL=screen.css.map */

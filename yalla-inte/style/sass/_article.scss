@@ -118,6 +118,10 @@ main#article {
 
   .container_article {
     margin: 3% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   @media screen and (max-width: 800px) {
