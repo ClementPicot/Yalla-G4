@@ -496,11 +496,12 @@ main#actualite .article_shadow:hover {
 main#actualite .article_shadow img {
   width: 100%;
   margin-top: 25px; }
-main#actualite .article_shadow h3 {
+main#actualite .article_shadow a {
   color: #F24800;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 17px;
-  text-align: center; }
+  text-align: center;
+  max-heigth: 150px; }
 main#actualite .taille_img2 img {
   width: 18px;
   display: block;
