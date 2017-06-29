@@ -2,41 +2,45 @@
 <html>
 
   <head>
-    <title>Projet</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--LINK fichier boostrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- LINK Custom CSS -->
-    <link rel="stylesheet" href="style/css/screen.css">
-    <!-- LINK Font-->
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{asset('style/bootstrap/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('style/css/screen.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-
   </head>
 
   <body>
+
     <!--DEBUT HEADER-->
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <div class="don navbar-left">
-              <h4><a href="#">Faire un don</a></h4>
             </div>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <a href="index.html"><img class="logo" src="img-content/logo.svg" width="50" height="50" alt="Yalla"></a>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="{{route('home')}}"><img class="logo"  src="{{asset('img-content/logo.svg')}}" width="50" height="50" alt="Yalla"></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="nous-connaitre.html">Nous connaître</a></li>
-              <li><a href="mission.html">Notre mission</a></li>
+              <li class="active_header"><a href="actualites.html">Actualités</a></li>
+              <li><a href="{{route('connaitre')}}">Nous connaître</a></li>
+              <li><a href="{{route('mission')}}">Notre mission</a></li>
               <li><a href="projet.html">Nos projets</a></li>
               <li><a href="contact.html">Contact</a></li>
+              <select name="lang" id="lang">
+                <option value="fr">fr (France)</option>
+                <option value="en">en (England)</option>
+              </select>
+              <div class="don">
+                <h4><a href="#">Faire un don</a></h4></div>
+
             </ul>
           </div>
         </div>
@@ -152,6 +156,51 @@
       </section>
       <!-- Fin nos objectifs -->
     </main>
+
+    <footer>
+      <div class="container-fluid bckg-color">
+        <div class="container">
+          <div class="row">
+            <div class="footer">
+              <div class="logo_content col-md-3">
+                <a href="{{route('home')}}"><img src="{{asset('img-layout/logo.svg')}}" width="50" height="50" alt=""></a>
+              </div>
+              <div class="mention_content col-md-8 col-xs-12">
+                <p>Mentions légale</p>
+                <p>Contact</p>
+                <button type="button" name="button">Faire un don</button>
+                <div class="reseaux_content col-md-4 col-xs-12">
+                  <a href="#"><img src="{{asset('img-content/facebook-footer.png')}}" alt=""></a>
+                  <a href="#"><img src="{{asset('img-content/twitter.png')}}" alt=""></a>
+                  <a href="#"><img src="{{asset('img-content/pinterest.png')}}" alt=""></a>
+                  <a href="#"><img src="{{asset('img-content/instagram.png')}}" alt=""></a>
+                </div>
+              </div>
+              <div class="actualite_content">
+                <div class="last_actualite">
+                  <h6>Dernières actualités</h6>
+                </div>
+                <div class="all_actualite">
+                  <a href="#">
+                    <p>Fest-noz solidaire le 29 octobre à Poullaouen</p>
+                  </a>
+                  <a href="#">
+                    <p>Assemblé Générale de Yalla ! Pour les enfants jeudi 29 septembre 2016 à, à Paris</p>
+                  </a>
+                  <a href="#">
+                    <p>Pétition "Ban ki-moon:STOPPONS LA GUERRE EN SYRIE"</p>
+                  </a>
+                  <a href="#">
+                    <p>Les prochains évènements de Souria Houria</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
