@@ -79,7 +79,7 @@
           <div class="content_who col-md-6 col-xs-10">
             <h1>Qui somme nous ?</h1>
             <hr>
-            <p>Culpa probant te nescius ut tempor voluptatibus cernantur tempor nescius. Iis mentitum o arbitror in doctrina efflorescere in nostrud.
+            <p>Une association pour aider les enfants syriens dans la vie de tous les jours
             </p>
             <button class="don_who" type="button" name="button">Nous découvrir</button>
           </div>

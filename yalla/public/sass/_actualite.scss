@@ -42,14 +42,14 @@ main#actualite {
     font-size: 13px;
     color: #4E4E4E;
   }
-  .actu {
-    margin-top: 100px;
-  }
 
-  .actu h2 {
+
+  .actu h1 {
 	   font-size: 18px;
 	   line-height: 21px;
-     text-align: center;
+       text-align: center;
+    margin-bottom: 30PX;
+
   }
 
   .article_shadow {
@@ -73,7 +73,6 @@ main#actualite {
 	   font-size: 12px;
 	   line-height: 17px;
 	   text-align: center;
-      max-heigth: 150px;
   }
 
   .taille_img2 img {
