@@ -40,110 +40,55 @@
                         <option value="en">en (England)</option>
                     </select>
                     <div class="don">
-                        <h4><a href="{{asset('soutenir')}}">Faire un don</a></h4></div>
-
+                        <h4><a href="#">Faire un don</a></h4></div>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
-<!-- Fin HEADER -->
+<!--FIN HEADER-->
 
-<!-- Debut Body -->
-<main id="contact">
-
-    <section class="don">
+<!--Actualite-->
+<main id="actualite">
+    <section class="actu">
         <div class="container-fluid">
-            <h1>Faire un don</h1>
-        </div>
-        <div class="don_content col-md-12 col-sm-12 col-xs-12">
+            <div class="container-fluid">
+                <div class="container_article col-md-12 col-sm-12 col-xs-12">
+                    @foreach ($articles as $article)
+                    <div class="article_shadow col-md-3 col-sm-5 col-xs-12" href="{{ route('article', $article->id) }}">
+                        <div class="margin_article col-md-12 col-sm-12 col-xs-12" href="{{ route('article', $article->id) }}">
+                            <img src="{{asset('img-content/mission.jpg')}}" alt="Article 1">
+                            <a href="{{ route('article', $article->id) }}">{{$article->title}}</a>
 
-            <div class="background_don col-md-3 col-sm-5 col-xs-12">
-                <h2>Chèque Bancaire</h2>
-                <br>
-                <p>à l’ordre de « Yalla! Pour les Enfants »
-                    <br>
-                    <br> adressé à
-                    <br>
-                    <br> Yalla! 13, rue René Villermé 75011 Paris
-                </p>
-            </div>
+                            <div class="date taille_img2 col-md-2 col-sm-2 col-xs-5">
+                                <img src="{{asset('img-content/clock.png')}}" alt="Date">
+                            </div>
 
-            <div class="background_don col-md-3 col-sm-5 col-xs-12">
-                <h2>Virement bancaire</h2>
-                <br>
-                <p>Virement bancaire sur le compte
-                    <br>
-                    <br> de notre association
-                    <br>
-                    <br><a href="#">coordonnées bancaires</a>
-                </p>
-            </div>
+                            <div class="date col-md-4 col-sm-4 col-xs-5">
+                                <p>{{$article->date}}</p>
+                            </div>
 
-            <div class="background_don col-md-3 col-sm-5 col-xs-12">
-                <h2>Don en ligne</h2>
-                <br>
-                <p>Don en ligne sur le site de notre
-                    <br>
-                    <br>partenaire la plateforme <a href="#">de financement
-                        <br>
-                        <br>participatif W4 (Women’s WorldWide Web). </a>
-                </p>
-            </div>
+                            <div class="date taille_img2 col-md-2 col-sm-2 col-xs-5">
+                                <img src="{{asset('img-content/folder.png')}}" alt="Date">
+                            </div>
 
-        </div>
-    </section>
+                            <div class="date col-md-4 col-sm-4 col-xs-5">
+                                <p>{{$article->categorie}}</p>
+                            </div>
 
-    <section class="don membre">
-        <div class="container-fluid">
-            <h1>Devenir Membre</h1>
-        </div>
-        <div class="don_content col-md-12 col-sm-12 col-xs-12">
-
-            <div class="background_don col-md-5 col-sm-8 col-xs-12">
-                <h2>Par courrier</h2>
-                <br>
-                <p>Yalla! 13, rue René Villermé 75011 Paris
-                    <br>
-                    <br>accompagné d’un chèque de 20 euros (montant de l’adhésion annuelle) à
-                    <br>
-                    <br>l’ordre de “Yalla! Pour les Enfants”
-                </p>
-            </div>
-
-            <div class="background_don col-md-5 col-sm-8 col-xs-12">
-                <h2>Par e-mail</h2>
-                <br>
-                <p>à l’ordre de « Yalla! Pour les Enfants »
-                    <br>
-                    <br> adressé à
-                    <br>
-                    <br>Yalla! 13, rue René Villermé 75011 Paris
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="don membre contact_text">
-        <div class="container-fluid">
-            <div class="don_content col-md-12 col-sm-12 col-xs-12">
-                <div class="message_contact col-md-10 col-sm-10 col-xs-12">
-                    <p>Pour répondre à nombreuses de vos questions, nous n’organisons pas de parrainage individuel et personnalisé en raison de nos ressources, limitées, et
-                        <br> de notre principe d’équité, de ne pas faire de différence entre nos écoliers. Toutefois, le don régulier de nos adhérents et sympathisants n’en reste pas
-                        <br> moins crucial pour le bon déroulement de l’année scolaire. il permettra aux enfants d’avoir une scolarité ininterrompue, ce qui est indispensable à son
-                        <br>équilibre et à sa progression. En donnant 15 euros par mois, vous couvrez les frais de scolarisation d’un enfant syrien pendant une semaine.
-                        <br>
-                        <br> Il suffit pour cela d’autoriser un virement automatique de votre compte en banque sur celui de Yalla! en indiquant en objet : “Parrainage Yalla!”.
-                    </p>
+                        </div>
+                    </div>
+                    @endforeach
                 </div>
-
             </div>
         </div>
     </section>
+
+
 
 </main>
 
+<!-- Debut Footer -->
 <footer>
     <div class="container-fluid bckg-color">
         <div class="container">
@@ -188,25 +133,8 @@
     </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js " charset="utf-8 "></script>
-<script src="js/bootstrap.min.js " charset="utf-8 "></script>
+<!-- Fin Footer -->
 
-<script type="text/javascript ">
-    $(function() {
-
-        $('.scroll').click(function() {
-
-            var cible = $(this).attr('href');
-            console.log(cible)
-
-            $('html, body').animate({
-                scrollTop: $(cible).offset().top
-            }, 1000);
-        });
-
-    });
-
-</script>
 
 </body>
 

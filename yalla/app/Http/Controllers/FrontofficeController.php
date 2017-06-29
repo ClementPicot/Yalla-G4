@@ -26,4 +26,15 @@ class FrontofficeController extends Controller {
     {
         return view('front.connaitre');
     }
+
+    public function supportUs()
+    {
+        return view('front.soutenir');
+    }
+
+    public function actualite()
+    {
+        $articles = Article::all();
+        return view('front.actualites', compact('articles'));
+    }
 }
