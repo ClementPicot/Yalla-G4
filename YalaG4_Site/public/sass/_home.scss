@@ -1,0 +1,364 @@
+main#home {
+
+/*------------Start theatre ---------------*/
+/*-------Start theatre--------*/
+.banner_theatre {
+  background: url('../../img-content/first.png')center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+
+}
+.infos_theatre {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+  margin-top: 100px;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
+
+}
+.infos_theatre h1 {
+  font-size: 23px;
+
+}
+.infos_theatre p {
+  font-size: 25px;
+}
+.don_theatre {
+  height: 60px;
+  background-color: #F24800;
+  border-radius: 7px;
+  opacity: 0.87;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border: none;
+  transition: 0.7s;
+}
+.don_theatre:hover {
+  background-color: #F24800;
+  cursor: pointer;
+}
+.content_theatre h1 {
+  text-transform: uppercase;
+}
+/*-------------------End theatre -------------*/
+
+.banner_who {
+  background: url('../../img-content/second.png')center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+
+}
+.infos_who {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+  margin-top: 100px;
+  flex-direction: column;
+
+}
+.infos_who h1 {
+  font-size: 23px;
+}
+.infos_who p {
+  font-size: 25px;
+}
+.don_who {
+  height: 60px;
+  background-color: #F24800;
+  border-radius: 7px;
+  opacity: 0.87;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border: none;
+  transition: 0.7s;
+  font-size: 24px;
+}
+.don_who:hover {
+  background-color: #F24800;
+  cursor: pointer;
+
+}
+.content_who h1 {
+  text-transform: uppercase;
+}
+/*-----------end theatre-------------*/
+/*----------Debut Constat---------*/
+.banner_constat {
+  background: url('../../img-content/constat.png') fixed center no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  color: #fff;
+}
+.content_constat {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 800px;
+  overflow: hidden;
+
+}
+.content_constat p {
+  font-size: 24px;
+}
+/*-----FIN de constat -----*/
+/*------Nos actions------*/
+.actions {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content_actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.actions h2 {
+  width: 100%;
+  text-align: center;
+}
+.actions hr {
+  position: absolute;
+  bottom: 15%;
+  border-bottom: 2px solid #000;
+
+}
+
+
+/*-----Debut Video-----*/
+.video {
+  background-color: #000;
+}
+.content_video {
+  display: flex;
+  justify-content: center;
+}
+/*-----Fin video-----*/
+
+/*------content_education------*/
+.content_education {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: 24px;
+}
+
+
+/*----Fin content_education-----*/
+/*---- Debut aider -----*/
+.background_aider {
+  background-color: #F24800;
+}
+.content_aider {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+}
+.education_don {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 350px;
+  flex-direction: column;
+  color: #fff;
+
+}
+.education_don button {
+  background: transparent ;
+  border: 2px solid #fff;
+  height: 57px;
+  width: 25%;
+  border-radius: 6px;
+  font-size: 22px;
+  transition: 0.7s;
+}
+.education_don button:hover {
+  background-color: #fff;
+  color: #F24800;
+  cursor: pointer;
+
+
+}
+.education_don p {
+  font-size: 21px;
+
+}
+/*----Fin aider----*/
+/*-----Début Actualité----*/
+.content_actualite {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.content_actualite hr {
+  border-bottom: 2px solid #000;
+}
+.img_actualite {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.img_actualite {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.img_actualite:hover {
+  transform: scale(1.05);
+}
+
+.first_actualite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.first_actualite a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.date_categorie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+  .first_actualite h4 {
+  margin-top: 50px;
+  color: #000;
+}
+.date_categorie img {
+  width: 10%;
+}
+
+
+
+/*------Debut reseau------*/
+.background_reseau {
+  background: url('../../img-content/reseau.png');
+  background-size: cover;
+  height: 500px;
+}
+.content_reseau {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 500px;
+  flex-direction: column;
+}
+.content_reseau h3 {
+  margin-top: 50px;
+
+}
+.content_reseau img {
+  margin-bottom: 50px;
+}
+
+/*-----Fin reseau-----*/
+/*-----Debut Partenaire ------*/
+.content_partenaire {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+.thumb_partenaire {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 400px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.thumb_partenaire img {
+  width: 20%;
+}
+/*-----Fin partenaire -------*/
+/*-----Responsive-------*/
+@media screen and (max-width: 800px) {
+  .infos_theatre {
+    font-size: 20px;
+  }
+  .infos_who {
+    font-size: 20px;
+
+  }
+  .don_theatre {
+    font-size: 18px
+  }
+  .don_who{
+    font-size: 18px;
+  }
+  .content_constat p {
+    font-size: 19px;
+    height: auto;
+  }
+  .content_education p {
+    font-size: 21px;
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .content_education p {
+    font-size: 15px;
+  }
+  .content_aider p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .education_don button {
+    width: 150px;
+    font-size: 18px;
+  }
+  .content_theatre p {
+    font-size: 17px;
+  }
+  .content_who p {
+    font-size: 17px;
+  }
+  .thumb_partenaire img {
+    width: 33%;
+
+  }
+}
+}
