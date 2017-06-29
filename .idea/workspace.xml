@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00d4ce9b-c9f8-4bc2-bdd1-f546db00629f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/img-content/img_article.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/img-layout/oumi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_article.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_contact.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_contact.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_header.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_home.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_mission.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_nous-connaitre.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_nous-soutenir.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/_projet.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/.sass-cache/a7dffe43ff4416050fedd2b0e631b0e8b13616ac/screen.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/nous-soutenir.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla-inte/style/sass/_nous-soutenir.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/article.html" afterPath="$PROJECT_DIR$/yalla-inte/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/mission.html" afterPath="$PROJECT_DIR$/yalla-inte/mission.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/nous-connaitre.html" afterPath="$PROJECT_DIR$/yalla-inte/nous-connaitre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/projet.html" afterPath="$PROJECT_DIR$/yalla-inte/projet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/style/css/screen.css" afterPath="$PROJECT_DIR$/yalla-inte/style/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/style/css/screen.css.map" afterPath="$PROJECT_DIR$/yalla-inte/style/css/screen.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/style/sass/_article.scss" afterPath="$PROJECT_DIR$/yalla-inte/style/sass/_article.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/style/sass/_header.scss" afterPath="$PROJECT_DIR$/yalla-inte/style/sass/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/style/sass/screen.scss" afterPath="$PROJECT_DIR$/yalla-inte/style/sass/screen.scss" />
-    </list>
+    <list default="true" id="00d4ce9b-c9f8-4bc2-bdd1-f546db00629f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,12 +163,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498734500034</updated>
-      <workItem from="1498734501149" duration="129000" />
+      <workItem from="1498734501149" duration="976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129000" />
+    <option name="totallyTimeSpent" value="976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="791" extended-state="6" />
