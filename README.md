@@ -1,4 +1,4 @@
-![](https://giphy.com/gifs/3ohryi1LymUOnPVN0Q)
+![](http://imgur.com/a/8EMuh)
 <p align="center"><img src="https://giphy.com/gifs/3ohryi1LymUOnPVN0Q"></p>
 
 
