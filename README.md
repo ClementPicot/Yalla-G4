@@ -1,5 +1,5 @@
-![](http://imgur.com/a/8EMuh)
-<p align="center"><img src="https://giphy.com/gifs/3ohryi1LymUOnPVN0Q"></p>
+![](https://media.giphy.com/media/3ohryi1LymUOnPVN0Q/200w_d.gif)
+<p align="center"><img src="https://media.giphy.com/media/3ohryi1LymUOnPVN0Q/200w_d.gif"></p>
 
 
 # Projet de refonte du site [Yalla! Pour les Enfants](http://www.yalla-enfants.com/) par le groupe Yalla-G4.
