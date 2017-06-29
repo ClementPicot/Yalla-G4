@@ -54,7 +54,7 @@
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="container_article col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="col-md-12">Voir d'autres actualités</h2>
+                    <h1 class="col-md-12">Actualités</h1>
                     @foreach ($articles as $article)
                     <div class="article_shadow col-md-3 col-sm-5 col-xs-12" href="{{ route('article', $article->id) }}">
                         <div class="margin_article col-md-12 col-sm-12 col-xs-12" href="{{ route('article', $article->id) }}">
