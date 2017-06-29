@@ -1,4 +1,3 @@
-![](http://i.imgur.com/OUkLi.gif)
 <p align="center"><img src="https://github.com/ClementPicot/Yalla-G4/blob/master/YalaG4_Site/public/img-content/logo.svg"></p>
 
 
