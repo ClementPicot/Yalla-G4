@@ -30,10 +30,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active_header"><a href="actualites.html">Actualités</a></li>
+                    <li class="active_header"><a href="{{route('actu')}}">Actualités</a></li>
                     <li><a href="{{route('connaitre')}}">Nous connaître</a></li>
                     <li><a href="{{route('mission')}}">Notre mission</a></li>
-                    <li><a href="projet.html">Nos projets</a></li>
+                    <li><a href="{{route('projet')}}">Nos projets</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <select name="lang" id="lang">
                         <option value="fr">fr (France)</option>
@@ -54,6 +54,7 @@
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="container_article col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="col-md-12">Voir d'autres actualités</h2>
                     @foreach ($articles as $article)
                     <div class="article_shadow col-md-3 col-sm-5 col-xs-12" href="{{ route('article', $article->id) }}">
                         <div class="margin_article col-md-12 col-sm-12 col-xs-12" href="{{ route('article', $article->id) }}">

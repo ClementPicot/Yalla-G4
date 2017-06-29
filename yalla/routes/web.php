@@ -17,6 +17,7 @@ Route::get('/article/{id}', ['as' => 'article', 'uses' => 'FrontofficeController
 Route::get('/nous-connaitre', ['as' => 'connaitre', 'uses' => 'FrontofficeController@knowUs']);
 Route::get('/nous-soutenir', ['as' => 'soutenir', 'uses' => 'FrontofficeController@supportUs']);
 Route::get('/actualite', ['as' => 'actu', 'uses' => 'FrontofficeController@actualite']);
+Route::get('/projets', ['as' => 'projet', 'uses' => 'FrontofficeController@projet']);
 
 Route::prefix('admin')->group(function() {
   Route::get('/article', ['as' => "admin.article","uses" => 'ArticleController@index']);

@@ -68,11 +68,12 @@ main#actualite {
     margin-top: 25px;
   }
 
-  .article_shadow h3 {
+  .article_shadow a {
 	   color: #F24800;
-	   font-size: 14px;
+	   font-size: 12px;
 	   line-height: 17px;
 	   text-align: center;
+      max-heigth: 150px;
   }
 
   .taille_img2 img {

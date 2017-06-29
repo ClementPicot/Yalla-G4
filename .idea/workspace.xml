@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d4ce9b-c9f8-4bc2-bdd1-f546db00629f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla/resources/views/front/actualites.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/_article.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/_home.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/_mission.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/_nous-connaitre.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/_nous-soutenir.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/_projet.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yalla/public/css/screen.scss" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yalla/resources/views/front/projet.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla-inte/actualite.html" afterPath="$PROJECT_DIR$/yalla-inte/actualite.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/app/Http/Controllers/FrontofficeController.php" afterPath="$PROJECT_DIR$/yalla/app/Http/Controllers/FrontofficeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/public/css/screen.css" afterPath="$PROJECT_DIR$/yalla/public/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/public/css/screen.css.map" afterPath="$PROJECT_DIR$/yalla/public/css/screen.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/resources/views/front/article.blade.php" afterPath="$PROJECT_DIR$/yalla/resources/views/front/article.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/public/sass/_actualite.scss" afterPath="$PROJECT_DIR$/yalla/public/sass/_actualite.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/resources/views/front/actualites.blade.php" afterPath="$PROJECT_DIR$/yalla/resources/views/front/actualites.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/resources/views/front/connaitre.blade.php" afterPath="$PROJECT_DIR$/yalla/resources/views/front/connaitre.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/resources/views/front/index.blade.php" afterPath="$PROJECT_DIR$/yalla/resources/views/front/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/resources/views/front/mission.blade.php" afterPath="$PROJECT_DIR$/yalla/resources/views/front/mission.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/resources/views/front/soutenir.blade.php" afterPath="$PROJECT_DIR$/yalla/resources/views/front/soutenir.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yalla/routes/web.php" afterPath="$PROJECT_DIR$/yalla/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/yalla/app/Http/Controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="31" />
+              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -62,23 +54,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yalla/app/Article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="connaitre.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/connaitre.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
               <folding>
-                <marker date="1498753349000" expanded="true" signature="13195:13201" ph="..." />
+                <marker date="1498756439000" expanded="true" signature="13205:13211" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,8 +69,18 @@
       <file leaf-file-name="actualites.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/actualites.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_actualite.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yalla/public/sass/_actualite.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -97,8 +89,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+            <state relative-caret-position="435">
+              <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -107,8 +99,18 @@
       <file leaf-file-name="mission.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/mission.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="315">
+              <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projet.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/projet.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -117,8 +119,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yalla/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -127,21 +129,9 @@
       <file leaf-file-name="FrontofficeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yalla/app/Http/Controllers/FrontofficeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="496">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="soutenir.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/soutenir.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="58" />
-              <folding>
-                <marker date="1498753264000" expanded="true" signature="8742:8748" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +143,7 @@
       <find>src</find>
       <find>logo</find>
       <find>title</find>
+      <find>h3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,11 +155,13 @@
         <option value="$PROJECT_DIR$/yalla/resources/views/front/connnaitre.blade.php" />
         <option value="$PROJECT_DIR$/yalla/resources/views/front/article.blade.php" />
         <option value="$PROJECT_DIR$/yalla/resources/views/front/soutenir.blade.php" />
-        <option value="$PROJECT_DIR$/yalla/resources/views/front/mission.blade.php" />
-        <option value="$PROJECT_DIR$/yalla/resources/views/front/connaitre.blade.php" />
-        <option value="$PROJECT_DIR$/yalla/resources/views/front/index.blade.php" />
-        <option value="$PROJECT_DIR$/yalla/app/Http/Controllers/FrontofficeController.php" />
+        <option value="$PROJECT_DIR$/yalla/public/sass/_actualite.scss" />
         <option value="$PROJECT_DIR$/yalla/routes/web.php" />
+        <option value="$PROJECT_DIR$/yalla/app/Http/Controllers/FrontofficeController.php" />
+        <option value="$PROJECT_DIR$/yalla/resources/views/front/index.blade.php" />
+        <option value="$PROJECT_DIR$/yalla/resources/views/front/mission.blade.php" />
+        <option value="$PROJECT_DIR$/yalla/resources/views/front/projet.blade.php" />
+        <option value="$PROJECT_DIR$/yalla/resources/views/front/connaitre.blade.php" />
         <option value="$PROJECT_DIR$/yalla/resources/views/front/actualites.blade.php" />
       </list>
     </option>
@@ -431,6 +424,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yalla-G4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yalla-G4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yalla" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yalla-G4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yalla-G4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yalla" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -472,32 +505,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yalla-G4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yalla-G4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yalla" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,12 +604,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498734500034</updated>
-      <workItem from="1498734501149" duration="10992000" />
+      <workItem from="1498734501149" duration="12050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10992000" />
+    <option name="totallyTimeSpent" value="12050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="6" />
@@ -714,57 +721,81 @@
     <entry file="file://$PROJECT_DIR$/yalla/app/Http/Controllers/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="31" />
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/yalla/public/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yalla/public/sass/_actualite.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yalla/app/Http/Controllers/FrontofficeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="496">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/mission.blade.php">
+    <entry file="file://$PROJECT_DIR$/yalla/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/connaitre.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
           <folding>
-            <marker date="1498753349000" expanded="true" signature="13195:13201" ph="..." />
+            <marker date="1498756439000" expanded="true" signature="13205:13211" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yalla/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/projet.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="450">
+          <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/mission.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yalla/resources/views/front/actualites.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
           <folding />
         </state>
       </provider>

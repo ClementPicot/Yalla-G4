@@ -37,4 +37,9 @@ class FrontofficeController extends Controller {
         $articles = Article::all();
         return view('front.actualites', compact('articles'));
     }
+
+    public function projet()
+    {
+        return view('front.projet');
+    }
 }
