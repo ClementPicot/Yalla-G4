@@ -1,0 +1,148 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Roboto Slab";
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+hr {
+  width: 95px;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+header {
+  /*-----HEADER--------*/
+
+
+  /*------Custom Nav BAR--------*/
+
+
+
+  nav.navbar {
+    margin: 0;
+    background-color: rgb(242,242,242);
+    padding:.5%;
+    width: 100%;
+    display: block;
+  }
+
+  ul.navbar-right {
+    width: 65%;
+  }
+
+  .logo {
+    float: left;
+    margin-left: 10px;
+  }
+
+  .navbar-header {
+    width: auto;
+  }
+  button.navbar-toggle {
+    border: none;
+  }
+
+
+  .don {
+    float: right;
+    margin-right: 4%;
+  }
+
+  .don h4 {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #F24800;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 0 rgba(0,0,0,0.25);
+    transition: 0.7s;
+  }
+
+  .don h4 a {
+    color: white;
+  }
+  .don h4:hover {
+    color: #fff !important;
+    background-color: #DB4500;
+    cursor: pointer;
+  }
+  
+.nav {
+  float: right;
+  margin-right:1%;
+}
+
+
+#navbar ul.navbar-nav li.active_header a{
+  color: #F24800;
+}
+
+#navbar ul.navbar-nav li.active_header {
+  background-color: transparent;
+}
+
+select {
+  float: right;
+  margin-top: 2%;
+}
+
+
+  /*-----RESPONSIVE NAVBAR-------*/
+  @media screen and (max-width: 770px) {
+      .custom-navbar .navbar-right {
+          float: left;
+          padding-right: 15px;
+      }
+      .custom-navbar .nav.navbar-nav.navbar-right li {
+          float: left;
+      }
+      .custom-navbar .nav.navbar-nav.navbar-right li > a {
+          padding:8px 5px;
+      }
+      .custom-navbar .navbar-toggle {
+          float: left;
+          margin-right: 0
+      }
+      .custom-navbar .navbar-header {
+          float: left;
+          width: auto!important;
+      }
+      .custom-navbar .navbar-collapse {
+          clear: both;
+          float: none;
+      }
+      .navbar-toggle .collapsed {
+        float: left!important;
+      }
+      .navbar-brand {
+        text-align: center;
+      }
+      .navbar-header {
+        width: auto;
+      }
+      .don {
+      transform: translateX(-50%);
+      left: 50%;
+      top: 0;
+      position: absolute;
+      }
+      .don h4 {
+        padding: 5px;
+      }
+  }
+  /*----------FIN HEADER-------------*/
+
+
+  /*# sourceMappingURL=screen.css.map */
+
+}

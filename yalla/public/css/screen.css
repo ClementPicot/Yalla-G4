@@ -1,8 +1,9 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
 body {
-  font-family: "Lato";
+  font-family: "Roboto Slab";
   padding: 0;
   margin: 0;
   line-height: 1.6;
@@ -23,37 +24,45 @@ header {
   /*# sourceMappingURL=screen.css.map */ }
   header nav.navbar {
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.7); }
+    background-color: #f2f2f2;
+    padding: .5%;
+    width: 100%;
+    display: block; }
+  header ul.navbar-right {
+    width: 65%; }
   header .logo {
     float: left;
     margin-left: 10px; }
-  header .don {
-    transform: translateX(-50%);
-    left: 20%;
-    top: 0;
-    position: absolute; }
   header .navbar-header {
     width: auto; }
   header button.navbar-toggle {
     border: none; }
+  header .don {
+    float: right;
+    margin-right: 4%; }
   header .don h4 {
-    width: 100%;
     text-align: center;
-    border: 1px solid #000;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #0B9D2D;
-    border-radius: 5px;
-    color: #fff;
+    padding: 10px 20px;
+    background-color: #F24800;
+    border-radius: 10px;
     box-shadow: 2px 3px 4px 0 rgba(0, 0, 0, 0.25);
-    transition: 0.7s;
-    opacity: 1; }
+    transition: 0.7s; }
+  header .don h4 a {
+    color: white; }
   header .don h4:hover {
     color: #fff !important;
-    background-color: #000;
+    background-color: #DB4500;
     cursor: pointer; }
+  header .nav {
+    float: right;
+    margin-right: 1%; }
+  header #navbar ul.navbar-nav li.active_header a {
+    color: #F24800; }
+  header #navbar ul.navbar-nav li.active_header {
+    background-color: transparent; }
+  header select {
+    float: right;
+    margin-top: 2%; }
   @media screen and (max-width: 770px) {
     header .custom-navbar .navbar-right {
       float: left;
@@ -99,6 +108,7 @@ main#home {
   /*----Fin content_education-----*/
   /*---- Debut aider -----*/
   /*----Fin aider----*/
+  /*-----Début Actualité----*/
   /*------Debut reseau------*/
   /*-----Fin reseau-----*/
   /*-----Debut Partenaire ------*/
@@ -126,7 +136,7 @@ main#home {
     font-size: 25px; }
   main#home .don_theatre {
     height: 60px;
-    background-color: #0B9D2D;
+    background-color: #F24800;
     border-radius: 7px;
     opacity: 0.87;
     margin: auto;
@@ -136,7 +146,7 @@ main#home {
     border: none;
     transition: 0.7s; }
   main#home .don_theatre:hover {
-    background-color: #e36ffb;
+    background-color: #F24800;
     cursor: pointer; }
   main#home .content_theatre h1 {
     text-transform: uppercase; }
@@ -161,7 +171,7 @@ main#home {
     font-size: 25px; }
   main#home .don_who {
     height: 60px;
-    background-color: #0B9D2D;
+    background-color: #F24800;
     border-radius: 7px;
     opacity: 0.87;
     margin: auto;
@@ -172,7 +182,7 @@ main#home {
     transition: 0.7s;
     font-size: 24px; }
   main#home .don_who:hover {
-    background-color: #e36ffb;
+    background-color: #F24800;
     cursor: pointer; }
   main#home .content_who h1 {
     text-transform: uppercase; }
@@ -220,13 +230,11 @@ main#home {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    text-align: center;
     font-size: 24px; }
   main#home .background_aider {
-    background-color: #128E2D; }
+    background-color: #F24800; }
   main#home .content_aider {
     height: 350px;
     display: flex;
@@ -252,10 +260,50 @@ main#home {
     font-size: 22px;
     transition: 0.7s; }
   main#home .education_don button:hover {
-    background-color: #e36ffb;
+    background-color: #fff;
+    color: #F24800;
     cursor: pointer; }
   main#home .education_don p {
     font-size: 21px; }
+  main#home .content_actualite {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; }
+  main#home .content_actualite hr {
+    border-bottom: 2px solid #000; }
+  main#home .img_actualite {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+  main#home .img_actualite {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s; }
+  main#home .img_actualite:hover {
+    transform: scale(1.05); }
+  main#home .first_actualite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  main#home .first_actualite a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  main#home .date_categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px; }
+  main#home .first_actualite h4 {
+    margin-top: 50px;
+    color: #000; }
+  main#home .date_categorie img {
+    width: 10%; }
   main#home .background_reseau {
     background: url("../../img-content/reseau.png");
     background-size: cover;
@@ -309,7 +357,13 @@ main#home {
   @media screen and (max-width: 650px) {
     main#home .education_don button {
       width: 150px;
-      font-size: 18px; } }
+      font-size: 18px; }
+    main#home .content_theatre p {
+      font-size: 17px; }
+    main#home .content_who p {
+      font-size: 17px; }
+    main#home .thumb_partenaire img {
+      width: 33%; } }
 
 main#missions {
   /*---start banner-----*/
@@ -398,5 +452,340 @@ main#missions {
       margin-top: 50px; }
     main#missions .ancre_mission h2 {
       font-size: 14px; } }
+
+main#article .container-fluid {
+  padding: 0; }
+main#article hr {
+  border-bottom: 2px solid black; }
+main#article .background_article {
+  background: url("../../img-layout/oumi.jpg") center no-repeat;
+  background-size: cover;
+  height: 300px;
+  color: #fff; }
+main#article .background_article2 {
+  background: #F24800;
+  height: 25px; }
+main#article .content_head_article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background: rgba(36, 36, 36, 0.44); }
+main#article .content_head_article h1 {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center; }
+main#article .article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 3% auto 0 auto; }
+main#article .content_article {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: left; }
+main#article .article_date {
+  margin: 3% 0; }
+main#article .categorie_date {
+  height: 54px;
+  border: 2px solid #E6E6E6;
+  border-radius: 16px; }
+main#article .date {
+  margin-top: 12px; }
+main#article .taille_img img {
+  width: 24px;
+  display: block;
+  margin: 0 auto;
+  opacity: .3; }
+main#article .article_date p {
+  margin-top: 2px;
+  font-size: 13px;
+  color: #4E4E4E; }
+main#article .actu h2 {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center; }
+main#article .article_shadow {
+  border-radius: 19px;
+  box-shadow: 0 0 10px 0 rgba(174, 174, 174, 0.5); }
+main#article .article_shadow img {
+  width: 100%;
+  margin-top: 25px; }
+main#article .article_shadow h3 {
+  color: #F24800;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center; }
+main#article .taille_img2 img {
+  width: 18px;
+  display: block;
+  margin: 0 auto;
+  opacity: .3; }
+main#article .margin_article {
+  margin-bottom: 20px;
+  font-size: 10px; }
+main#article .container_article {
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+@media screen and (max-width: 800px) {
+  main#article .categorie_date img {
+    width: 18px; }
+  main#article .date p {
+    font-size: 9px; }
+  main#article .article_shadow {
+    margin: 5% 0; } }
+@media screen and (max-width: 430px) {
+  main#article .categorie_date {
+    height: 90px; } }
+
+main#projet {
+  /*---start banner-----*/
+  /*----Fin Banner-----*/
+  /*----Debut Strategie-----*/
+  /*------strategie et action ------*/
+  /*----Fin Strategie -----*/
+  /*-----Debut action -----*/
+  /*--------Debut objectif -----*/
+  /*------Fin objectif -----*/
+  /*-------Responsive----------*/ }
+  main#projet .container-fluid {
+    padding: 0; }
+  main#projet hr {
+    border-bottom: 2px solid black; }
+  main#projet .background_projet {
+    background: url("../../img-content/projet.jpg") center no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #fff; }
+  main#projet .content_projet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px; }
+  main#projet .ancre_projet {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(80, 80, 80, 0.63);
+    padding: 15px;
+    padding-bottom: 20px;
+    display: none; }
+  main#projet .ancre_projeth2 {
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s; }
+  main#projet .ancre_projeth2:hover {
+    color: #71bbb1; }
+  main#projet .strategie_action {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around; }
+  main#projet .content_strategie {
+    text-align: center;
+    box-shadow: 0 0 7px 0 rgba(186, 186, 186, 0.5);
+    padding: 25px; }
+  main#projet .content_action {
+    text-align: center;
+    box-shadow: 0 0 7px 0 rgba(186, 186, 186, 0.5);
+    padding: 25px; }
+  main#projet .content_objectif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  main#projet .content_objectif h3 {
+    text-align: center; }
+  main#projet .post_education-paix {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  main#projet .background_shadow {
+    margin-top: 80px;
+    box-shadow: inset 0 1px 10px 0 rgba(196, 196, 196, 0.5); }
+  main#projet .content_education span {
+    border-bottom: 2px solid green; }
+  main#projet .content_paix span {
+    border-bottom: 2px solid green; }
+  @media screen and (max-width: 1000px) {
+    main#projet .post_objectif {
+      text-align: center; } }
+  @media screen and (max-width: 800px) {
+    main#projet .strategie_action {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
+    main#projet .ancre_projet {
+      display: flex; }
+    main#projet .content_paix {
+      margin-top: 50px; }
+    main#projet .ancre_projeth2 {
+      font-size: 14px; } }
+
+#connaitre .container-fluid {
+  padding: 0; }
+#connaitre hr {
+  border-bottom: 2px solid black; }
+#connaitre .background_connaitre {
+  background: url("../../img-layout/connaitre-bg.jpg") center no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: #fff; }
+#connaitre .content_connaitre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px; }
+#connaitre .ancre_connaitre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgba(80, 80, 80, 0.63);
+  padding: 15px;
+  padding-bottom: 20px;
+  display: none; }
+#connaitre .ancre_connaitre h2 {
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s; }
+#connaitre .ancre_connaitre h2:hover {
+  color: #71bbb1; }
+#connaitre .content_philosophie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 3%; }
+#connaitre .content_philosophie h3 {
+  text-align: center; }
+#connaitre .post_vision-aide {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2%; }
+#connaitre .background_shadow {
+  margin-top: 80px;
+  box-shadow: inset 0 1px 10px 0 rgba(196, 196, 196, 0.5);
+  background: rgba(196, 196, 196, 0.05); }
+#connaitre .post_philosophie h4 {
+  text-align: center;
+  color: #F24800;
+  font-size: 14px;
+  opacity: .9; }
+#connaitre .post_philosophie p {
+  opacity: .8; }
+#connaitre .content_equipe {
+  margin-bottom: 5%; }
+#connaitre .content_equipe img {
+  border-radius: 100%;
+  width: 120px;
+  height: 130px;
+  display: block;
+  margin: 0 auto; }
+#connaitre .content_equipe p {
+  margin-top: 10px;
+  text-align: center; }
+#connaitre .content_equipe_logo img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto; }
+#connaitre .fonctionnement {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around; }
+#connaitre .fonctionnement img {
+  width: 100%; }
+#connaitre .content_fonctionnement {
+  text-align: center;
+  box-shadow: 0 0 7px 0 rgba(149, 149, 149, 0.5);
+  padding: 25px;
+  border: 1px solid #0C992D; }
+@media screen and (max-width: 1000px) {
+  #connaitre .post_philosophie {
+    text-align: center; } }
+@media screen and (max-width: 800px) {
+  #connaitre .fonctionnement {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  #connaitre .ancre_connaitre {
+    display: flex; }
+  #connaitre .ancre_connaitre h2 {
+    font-size: 14px; }
+  #connaitre .content_equipe img {
+    width: 80px;
+    height: 90px; }
+  #connaitre .content_equipe p {
+    font-size: 11px; }
+  #connaitre .content_equipe_logo {
+    display: none; }
+  #connaitre .image_fonctionnement {
+    display: none; } }
+
+#contact .container-fluid {
+  padding: 0; }
+#contact .don {
+  margin-top: 100px;
+  text-align: center; }
+#contact .don h1 {
+  font-size: 25px;
+  line-height: 29px; }
+#contact .don_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px; }
+#contact .background_don {
+  box-shadow: 0 0 2px 0 rgba(202, 202, 202, 0.5); }
+#contact .background_don h2 {
+  margin-top: 30px;
+  color: #F24800;
+  font-size: 18px;
+  line-height: 21px; }
+#contact .background_don p {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 20px; }
+#contact .background_don a {
+  color: #F24800; }
+#contact .membre {
+  margin-top: 300px; }
+#contact .message_contact p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 18px; }
+@media screen and (max-width: 800px) {
+  #contact .background_don {
+    margin: 5% 0; }
+  #contact .background_don p {
+    font-size: 14px;
+    line-height: 17px; }
+  #contact .membre {
+    margin-top: 600px; } }
+@media screen and (max-width: 430px) {
+  #contact .membre {
+    margin-top: 740px; }
+  #contact .contact_text {
+    margin-top: 400px; } }
 
 /*# sourceMappingURL=screen.css.map */
