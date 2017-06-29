@@ -14,4 +14,10 @@ class FrontofficeController extends Controller {
   {
     return view('front.mission');
   }
+
+  public function viewArticle($id)
+  {
+    $article = Article::find($id);
+    return view('front.article', compact('article'));
+  }
 }
