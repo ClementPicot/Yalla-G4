@@ -50,7 +50,7 @@
             <div class="container">
               <div class="row  infos_theatre">
                 <div class="content_theatre col-md-6 col-xs-10">
-                  <h1>Atelier theatre</h1>
+                  <h1>Atelier Théatre</h1>
                   <hr>
                   <p>L'association Yalla aimerait mettre en place un atelier théâtre, qui permettrait aux jeunes enfants de s'épanouir dans une activité ludique.
                   </p>
