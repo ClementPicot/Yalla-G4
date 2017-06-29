@@ -14,36 +14,36 @@
   <body>
       <!--DEBUT HEADER-->
       <header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <div class="don navbar-left">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <div class="don navbar-left">
+              </div>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="{{route('home')}}"><img class="logo"  src="img-content/logo.svg" width="50" height="50" alt="Yalla"></a>
             </div>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <img class="logo" href="{{route('home')}}" src="img-content/logo.svg" width="50" height="50" alt="Yalla">
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active_header"><a href="actualites.html">Actualités</a></li>
-              <li><a href="#">Nous connaître</a></li>
-              <li><a href="{{route('mission')}}">Notre mission</a></li>
-              <li><a href="projet.html">Nos projets</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <select name="lang" id="lang">
-                <option value="fr">fr (France)</option>
-                <option value="en">en (England)</option>
-              </select>
-              <div class="don"><h4><a href="#">Faire un don</a></h4></div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active_header"><a href="actualites.html">Actualités</a></li>
+                <li><a href="{{route('connaitre')}}">Nous connaître</a></li>
+                <li><a href="{{route('mission')}}">Notre mission</a></li>
+                <li><a href="projet.html">Nos projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <select name="lang" id="lang">
+                  <option value="fr">fr (France)</option>
+                  <option value="en">en (England)</option>
+                </select>
+                <div class="don"><h4><a href="#">Faire un don</a></h4></div>
 
-            </ul>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
       </header>
       <!--FIN HEADER-->
       <!-- Début Home-->
